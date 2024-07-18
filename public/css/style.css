@@ -162,6 +162,7 @@
 /*event*/
 .cardevent a {
   margin-left: 50px;
+  height: auto;
 }
 
 .card-title {
@@ -191,11 +192,11 @@
 }
 .gallery-item {
   flex: 0 0 20%; /* Set each item to take up 20% of the row */
-  max-width: 20%;
+  max-width: 50%;
   padding: 10px;
 }
 .gallery-item img {
-  width: 100%;
+  width: 150px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
