@@ -147,9 +147,11 @@ body {
     z-index: 2;
 }
 .vision-mission {
-    background-color: rgba(197, 188, 188, 0.9);
     padding: 40px 20px;
     border-radius: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 40px #b5b5b5,
+                 -20px -20px 40px #ffffff;
     color: #333;
 }
 .vision-mission h2 {
@@ -166,5 +168,6 @@ body {
     color: #007bff;
 }
 .section {
-    padding: 60px 0;
+  margin-top: 20px;
+    margin-bottom: 50px;
 }

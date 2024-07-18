@@ -141,6 +141,10 @@ body {
                  -20px -20px 40px #ffffff;
 }
 
+textarea {
+    resize: none;
+}
+
 /*Aside*/
 .contact_aside {
     margin-top: 80px;
