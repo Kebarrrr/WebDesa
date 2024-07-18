@@ -187,18 +187,16 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .gallery-item {
-  margin: 10px;
-  flex: 1 1 200px;
-  position: relative;
+  flex: 0 0 20%; /* Set each item to take up 20% of the row */
+  max-width: 20%;
+  padding: 10px;
 }
 .gallery-item img {
   width: 100%;
-  display: block;
-}
-.gallery-item:hover {
-  z-index: 10;
-  transform: scale(1.1);
-  transition: transform 0.3s;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

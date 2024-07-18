@@ -125,4 +125,29 @@ body {
     }
   }
   
-  /*Visi-Misi*/
+  /*Struktur*/
+  .organization-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.org-level {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.org-level .org-unit {
+    margin: 0 15px;
+}
+.org-unit .card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+}
+.org-unit img {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: 100%;
+    height: auto;
+}
